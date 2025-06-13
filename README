@@ -1,0 +1,29 @@
+# 🧠 Teclado Virtual Controlado por Parpadeos y Gestos con OpenCV y Mediapipe
+
+Este proyecto implementa un teclado virtual accesible utilizando la cámara web, que permite al usuario escribir texto mediante gestos con el dedo índice y parpadeos. Es una solución especialmente pensada para personas con movilidad reducida o como una interfaz alternativa experimental.
+
+---
+
+## 🎯 Características
+
+- Control del cursor mediante la posición del dedo índice detectado con MediaPipe Hands.
+- Selección de teclas mediante parpadeo (MediaPipe Face Mesh).
+- Cambios dinámicos entre minúsculas, mayúsculas y símbolos/números.
+- Modo de escritura en tiempo real con texto mostrado en pantalla.
+- Guardado automático del texto generado en un archivo `output.txt`.
+- Sugerencias automáticas (si se usa un modelo de predicción de texto).
+
+---
+
+## 🛠️ Tecnologías utilizadas
+
+- Python 3.8+
+- OpenCV
+- MediaPipe (Hands y Face Mesh)
+- PIL (Pillow) para dibujado avanzado (opcional)
+- Keras y TensorFlow (solo si se activa el autocompletado)
+
+---
+
+## 📁 Estructura del Proyecto
+
